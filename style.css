@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1d2671, #c33764);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  width: 450px;
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.container {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* FORM */
+.field {
+  margin-bottom: 18px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #444;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #c33764;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 10px;
+  background: linear-gradient(135deg, #c33764, #1d2671);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* OUTPUT */
+.output {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.box {
+  width: 48%;
+  padding: 20px;
+  border-radius: 12px;
+  background: #f4f6fb;
+  text-align: center;
+}
+
+.box h2 {
+  margin: 0;
+  font-size: 26px;
+}
+
+.box p {
+  margin-top: 6px;
+  font-size: 13px;
+  color: #777;
+}
+
+/* Grade colors */
+.pass {
+  color: #2e7d32;
+}
+
+.fail {
+  color: #c62828;
+}
